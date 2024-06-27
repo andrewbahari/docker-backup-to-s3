@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch-slim
 MAINTAINER Ilya Stepanov <dev@ilyastepanov.com>
 
 RUN apt-get update && \
